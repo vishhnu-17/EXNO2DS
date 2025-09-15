@@ -23,10 +23,10 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-import pandas as pd
-import numpy as np
-import seaborn as sns
-df=pd.read_csv('titanic_dataset.csv')
+import pandas as pd <br>
+import numpy as np <br>
+import seaborn as sns <br>
+df=pd.read_csv('titanic_dataset.csv') <br>
 df
 <img width="1412" height="632" alt="image" src="https://github.com/user-attachments/assets/5fb141f3-d65c-42c0-84fe-7c5f81cdf660" />
 df.info()
@@ -64,7 +64,7 @@ plt=sns.boxplot(x='Pclass',y='Age',hue='Gender',data=df)
 <img width="1397" height="611" alt="image" src="https://github.com/user-attachments/assets/f54c494f-7d7b-4300-9060-67f3fd17b1e6" />
 sns.catplot(x='Pclass',y='Age',hue='Gender',col='Survived',kind='box',data=df)
 <img width="1398" height="647" alt="image" src="https://github.com/user-attachments/assets/ebe6f789-7af2-4937-9f10-02520d2fd187" />
-corr=df.corr(numeric_only=True)
+corr=df.corr(numeric_only=True) <br>
 sns.heatmap(corr,annot=True)
 <img width="1391" height="654" alt="image" src="https://github.com/user-attachments/assets/00018065-1362-4e5d-a023-d6dbefe7cf4d" />
 sns.heatmap(corr)

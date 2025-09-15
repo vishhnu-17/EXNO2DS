@@ -71,4 +71,6 @@ sns.heatmap(corr)
 <img width="1383" height="612" alt="image" src="https://github.com/user-attachments/assets/5d824017-ed43-437b-ae3f-a1dc78f33674" />
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+       Thus exploratory data analysis on the given data set has been executed successfully.
+
+
